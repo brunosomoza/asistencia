@@ -1,0 +1,22 @@
+table, tbody {
+    margin: auto;
+    width: 80%;
+    border: 0;
+}   
+.title-reg {
+    text-align: center;
+    font-size: 33px;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+@media (max-width:768px){
+table, tbody {
+        width: 75%;
+    }
+}
+@media (max-width:480px){
+table, tbody {
+        width: 70%;
+    } 
+}
