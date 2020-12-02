@@ -9,12 +9,12 @@
                <div class="col-md-6">
                   <!-- START card-->
                   <div class="card card-default">
-                     <div class="card-header">Stacked form</div>
+                     <div class="card-header">Registo Usuario</div>
                      <div class="card-body">
                         <form method="POST" action="{{ route('guardarCadete') }}">
                            @csrf
                            <div class="form-group">
-                              <label>Nombre</label>
+                              <label>Nombre :</label>
                               <input class="form-control" type="text" id="nombreCadete"  name="nombreCadete" placeholder="Enter email">
                            </div>
                           <div class="form-group">
@@ -24,7 +24,7 @@
                            <div class="form-group">
                               <label>Grado del Cadete</label>
                               <select class="form-control" id="gradoCadete" name="gradoCadete">  
-                              <option value="0">-seleccione-</option>
+                              <option value="0">_SELECCIONE-</option>
                               <option value="1">Aspirante</option>
                               <option value="2">Primer Año</option>
                               <option value="3">Segundo Año</option>
@@ -35,7 +35,7 @@
                            </div>
 
                            <div class="form-group">
-                              <button type="submit" class="btn btn-primary">Registrar</button>
+                              <button type="submit" class="btn btn-primary">Registrar!</button>
                            </div>
                         </form>
                      </div>
